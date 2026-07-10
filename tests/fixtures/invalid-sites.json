@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "Not A Slug",
+    "name": "Invalid",
+    "live_url": "http://example.com/?utm_source=test",
+    "description": "invalid",
+    "category": "Unknown",
+    "creator_name": null,
+    "creator_url": null,
+    "source_url": "not-a-url",
+    "prompt_url": "not-a-url",
+    "prompt_provenance": "source-link-only",
+    "prompt_license": "CC0-1.0",
+    "verified_on": "not-a-date",
+    "review_status": "human-approved",
+    "reviewed_by_human": false,
+    "source_checked": false,
+    "live_checked": false,
+    "status": "inactive"
+  }
+]

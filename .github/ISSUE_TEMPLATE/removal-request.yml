@@ -1,0 +1,34 @@
+name: Creator removal request
+description: Request correction or removal of a site or attributed material.
+title: "[Removal request]: "
+labels: ["removal-request"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry or URL
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship to the site or material
+      description: Do not post sensitive personal information. A maintainer may request private verification.
+    validations:
+      required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: Requested action
+      options:
+        - Correct attribution or metadata
+        - Remove prompt reference
+        - Remove listing
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true

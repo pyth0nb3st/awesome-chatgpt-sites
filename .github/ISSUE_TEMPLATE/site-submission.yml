@@ -1,0 +1,64 @@
+name: New site submission
+description: Propose one public site for human review.
+title: "[Submission]: "
+labels: ["submission", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: This form creates a candidate only. It does not add a site automatically.
+  - type: input
+    id: live_url
+    attributes:
+      label: Direct live URL
+      description: Must be an HTTPS openai.chatgpt.site URL without tracking parameters.
+      placeholder: https://example.openai.chatgpt.site/
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Prompt source URL
+      description: Link to the creator or official source identifying the prompt.
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: Creator and attribution URL
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Objective description
+      description: One factual sentence starting uppercase and ending with a period.
+    validations:
+      required: true
+  - type: textarea
+    id: study_value
+    attributes:
+      label: Why is it useful to study?
+    validations:
+      required: true
+  - type: dropdown
+    id: prompt_rights
+    attributes:
+      label: Prompt rights
+      options:
+        - Link only; no reproduction permission is asserted
+        - CC0-1.0
+        - CC-BY-4.0
+        - Explicit creator permission
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I tested the site's primary interaction.
+          required: true
+        - label: This is not a reconstructed prompt or mass-generated submission.
+          required: true
+        - label: I understand that a human maintainer makes the final curation decision.
+          required: true

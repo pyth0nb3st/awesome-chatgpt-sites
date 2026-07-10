@@ -1,0 +1,18 @@
+name: Broken or private site
+description: Report an unavailable, redirected, or private live site.
+title: "[Broken link]: "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: live_url
+    attributes:
+      label: Live URL
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What happened?
+      description: Include the date checked, status code, redirect, login wall, or visible error.
+    validations:
+      required: true

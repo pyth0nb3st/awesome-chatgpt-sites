@@ -1,0 +1,16 @@
+{
+  "name": "awesome-chatgpt-sites",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Validation tooling for a human-curated list of Sites in ChatGPT.",
+  "scripts": {
+    "lint:awesome": "node scripts/run-awesome-lint.mjs",
+    "validate:catalog": "python3 scripts/validate_catalog.py",
+    "validate:sync": "python3 scripts/check_readme_sync.py",
+    "test:python": "python3 -m unittest discover -s tests",
+    "test": "npm run lint:awesome && npm run validate:catalog && npm run validate:sync && npm run test:python"
+  },
+  "devDependencies": {
+    "awesome-lint": "2.3.0"
+  }
+}

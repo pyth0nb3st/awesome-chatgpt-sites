@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/pyth0nb3st/awesome-chatgpt-sites/blob/main/schemas/site.schema.json",
+  "title": "Awesome Sites in ChatGPT catalog entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "name",
+    "live_url",
+    "description",
+    "category",
+    "creator_name",
+    "creator_url",
+    "source_url",
+    "prompt_url",
+    "prompt_provenance",
+    "prompt_license",
+    "verified_on",
+    "review_status",
+    "reviewed_by_human",
+    "source_checked",
+    "live_checked",
+    "status"
+  ],
+  "properties": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "live_url": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "description": { "type": "string", "pattern": "^[A-Z].*\\.$" },
+    "category": {
+      "enum": [
+        "Creative Tools",
+        "Data Visualization",
+        "Ecommerce and Storefronts",
+        "Games",
+        "Interactive Experiences",
+        "Internal Apps and Dashboards",
+        "Marketing Sites",
+        "Education and Documentation"
+      ]
+    },
+    "creator_name": { "type": ["string", "null"] },
+    "creator_url": { "type": ["string", "null"], "format": "uri" },
+    "source_url": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "prompt_url": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "prompt_provenance": {
+      "enum": ["official-source", "creator-submitted", "creator-confirmed", "source-link-only"]
+    },
+    "prompt_license": { "enum": ["CC0-1.0", "CC-BY-4.0", "creator-permission", "link-only"] },
+    "verified_on": { "type": "string", "format": "date" },
+    "review_status": { "enum": ["pending-human", "human-approved"] },
+    "reviewed_by_human": { "type": "boolean" },
+    "source_checked": { "const": true },
+    "live_checked": { "const": true },
+    "status": { "const": "active" }
+  }
+}

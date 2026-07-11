@@ -209,6 +209,25 @@
     "status": "active"
   },
   {
+    "slug": "phantasy-codex-online",
+    "name": "Phantasy Codex Online",
+    "live_url": "https://phantasy-codex-online.openai.chatgpt.site/",
+    "description": "Persistent browser action role-playing game with classes, physical loot, towns, fixed-level biomes, and escalating world tiers.",
+    "category": "Games",
+    "creator_name": null,
+    "creator_url": null,
+    "source_url": "https://the-infinite-build.openai.chatgpt.site/",
+    "prompt_url": "https://the-infinite-build.openai.chatgpt.site/",
+    "prompt_provenance": "source-link-only",
+    "prompt_license": "link-only",
+    "verified_on": "2026-07-11",
+    "review_status": "pending-human",
+    "reviewed_by_human": false,
+    "source_checked": true,
+    "live_checked": true,
+    "status": "active"
+  },
+  {
     "slug": "tiny-rails-rollercoaster",
     "name": "Tiny Rails Rollercoaster",
     "live_url": "https://sol-on-rails.openai.chatgpt.site/",

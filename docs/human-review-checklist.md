@@ -7,7 +7,7 @@ The current seed catalog was assembled with AI assistance and is not upstream-re
 - [ ] Confirm the final URL remains on an allowed hostname.
 - [ ] Open the source URL and verify it identifies the same site.
 - [ ] Confirm the stated prompt provenance and rights status.
-- [ ] Confirm no unlicensed prompt text or screenshot is stored locally.
+- [ ] Confirm no unlicensed prompt text is stored locally and every local preview has a source and rights record.
 - [ ] Independently assess functionality, originality, quality, learning value, and provenance reliability.
 - [ ] Rewrite or explicitly approve the description without relying on AI output.
 - [ ] Confirm the description is objective, starts uppercase, and ends with a period.

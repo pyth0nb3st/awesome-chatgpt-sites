@@ -2,16 +2,31 @@
 
 Live websites and applications published with Sites in ChatGPT, paired with traceable prompt sources.
 
+**[Explore the visual gallery →](https://awesome-chatgpt-sites.pyth0nb3st.chatgpt.site/)**
+
 > [!IMPORTANT]
 > This MVP was scaffolded with AI assistance. Every seed entry and description is pending the [documented human review](docs/human-review-checklist.md); the list does not yet satisfy the upstream Awesome requirement that a list be human-created.
 
 ## Contents
 
+- [Featured](#featured)
 - [Creative Tools](#creative-tools)
 - [Data Visualization](#data-visualization)
 - [Ecommerce and Storefronts](#ecommerce-and-storefronts)
 - [Education and Documentation](#education-and-documentation)
 - [Games](#games)
+
+## Featured
+
+<p align="center">
+  <img src="media/previews/glass-towers.jpg" alt="Glass Towers site preview" width="32%">
+  <img src="media/previews/material-lab.jpg" alt="Material Lab site preview" width="32%">
+  <img src="media/previews/field-day.jpg" alt="Field Day site preview" width="32%">
+</p>
+
+<p align="center"><strong>Glass Towers · Material Lab · Field Day</strong></p>
+
+Preview thumbnails are shown for identification and link directly to each live Site. See the [source and rights record](media/previews/README.md).
 
 ## Creative Tools
 

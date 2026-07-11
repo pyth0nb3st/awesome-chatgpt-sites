@@ -9,3 +9,5 @@ It does not relicense:
 - Prompts or other content published by third parties.
 
 Complete prompts may be committed only when a compatible license or explicit creator permission is recorded. A `link-only` record means the prompt remains governed by its original source terms and is not reproduced here. Site creators and rights holders may request correction or removal through the repository's removal-request issue form.
+
+The small preview thumbnails under `media/previews/` are descriptive references captured from the linked live Sites. They are not covered by the repository's CC0 dedication, no ownership or license is asserted over them, and their source record is maintained in [`media/previews/README.md`](media/previews/README.md). Rights holders may request immediate replacement or removal.

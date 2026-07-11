@@ -10,6 +10,7 @@ Live websites and applications published with Sites in ChatGPT, paired with trac
 - [Creative Tools](#creative-tools)
 - [Data Visualization](#data-visualization)
 - [Ecommerce and Storefronts](#ecommerce-and-storefronts)
+- [Education and Documentation](#education-and-documentation)
 - [Games](#games)
 
 ## Creative Tools
@@ -28,10 +29,15 @@ Live websites and applications published with Sites in ChatGPT, paired with trac
 - [Kiln](https://store-fronts-56.openai.chatgpt.site/kiln/) - Ceramics storefront with an interactive glazed cup and product catalog, with [prompt and provenance](https://developers.openai.com/showcase/kiln).
 - [Scent Cartography](https://store-fronts-56.openai.chatgpt.site/scent-cartography/) - Botanical fragrance storefront with a build-your-own scent atelier, with [prompt and provenance](https://developers.openai.com/showcase/scent-cartography).
 
+## Education and Documentation
+
+- [The Infinite Build](https://the-infinite-build.openai.chatgpt.site/) - Prompt-first guide for developing and iterating long-running Codex game projects, with [prompt and provenance](https://the-infinite-build.openai.chatgpt.site/).
+
 ## Games
 
 - [Backroom Center: Corrupted](https://backroom-center-corrupted.openai.chatgpt.site/) - First-person exploration game with a procedurally streamed data-center maze and VHS effects, with [prompt and provenance](https://developers.openai.com/showcase/backroom-center-corrupted).
 - [Glass Towers](https://glass-towers.openai.chatgpt.site/) - Physics-based browser game for stacking translucent forms on a pedestal, with [prompt and provenance](https://developers.openai.com/showcase/glass-towers).
+- [Paper Glider](https://paper-glider-56.openai.chatgpt.site/) - Three-dimensional arcade flying game through procedurally generated sunlit rooms, with [prompt and provenance](https://developers.openai.com/showcase/paper-glider).
 - [Tiny Rails Rollercoaster](https://sol-on-rails.openai.chatgpt.site/) - Three-dimensional coaster simulator with eight routes and multiple driving modes, with [prompt and provenance](https://developers.openai.com/showcase/tiny-rails-rollercoaster).
 
 ## Contributing

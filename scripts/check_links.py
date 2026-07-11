@@ -22,7 +22,7 @@ USER_AGENT = "awesome-chatgpt-sites/0.1 (+https://github.com/pyth0nb3st/awesome-
 
 
 def allowed_host(hostname: str | None) -> bool:
-    return bool(hostname and (hostname == "openai.chatgpt.site" or hostname.endswith(".openai.chatgpt.site")))
+    return bool(hostname and hostname != "chatgpt.site" and hostname.endswith(".chatgpt.site"))
 
 
 def changed_urls(records: list[dict[str, object]]) -> list[str]:

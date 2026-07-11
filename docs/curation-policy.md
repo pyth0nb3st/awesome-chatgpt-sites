@@ -3,7 +3,7 @@
 This project is a curation, not a comprehensive directory. A core entry must:
 
 - Be publicly accessible without a login.
-- Use HTTPS on `openai.chatgpt.site` or a subdomain ending in `.openai.chatgpt.site`.
+- Use HTTPS on a deployed subdomain ending in `.chatgpt.site`; the `chatgpt.site` documentation apex is not eligible.
 - Have a working primary interaction.
 - Have an identifiable prompt source and truthful provenance status.
 - Offer meaningful design, functional, educational, or technical value.

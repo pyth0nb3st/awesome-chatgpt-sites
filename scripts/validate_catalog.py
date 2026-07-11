@@ -35,7 +35,7 @@ TRACKING_KEYS = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_co
 
 
 def is_allowed_live_host(hostname: str | None) -> bool:
-    return bool(hostname and (hostname == "openai.chatgpt.site" or hostname.endswith(".openai.chatgpt.site")))
+    return bool(hostname and hostname != "chatgpt.site" and hostname.endswith(".chatgpt.site"))
 
 
 def validate(records: object) -> list[str]:

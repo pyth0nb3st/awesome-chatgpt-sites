@@ -8,7 +8,7 @@ Open one pull request per site with the title `Add site: Site Name`.
 
 The site must have:
 
-- A direct, public HTTPS URL whose hostname is `openai.chatgpt.site` or ends in `.openai.chatgpt.site`.
+- A direct, public HTTPS URL on a deployed subdomain ending in `.chatgpt.site`; the documentation apex is not eligible.
 - A working primary interaction that you personally tested.
 - An identifiable original prompt source.
 - Creator and source attribution where available.

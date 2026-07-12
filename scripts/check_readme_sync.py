@@ -12,13 +12,29 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
 CATALOG = ROOT / "data" / "sites.json"
-ENTRY = re.compile(r"^- \[([^]]+)]\((https://[^)]+)\) - (.+), with \[prompt and provenance]\((https://[^)]+)\)\.$")
+PROMPT_ENTRY = re.compile(
+    r"^- \[([^]]+)]\((https://[^)]+)\) - (.+), with "
+    r"\[prompt and provenance]\((https://[^)]+)\)\.$"
+)
+UNAVAILABLE_ENTRY = re.compile(
+    r"^- \[([^]]+)]\((https://[^)]+)\) - (.+\.) Prompt not publicly available\.$"
+)
+
+
+def parse_entry(line: str) -> tuple[str, str, str, str | None] | None:
+    if match := PROMPT_ENTRY.fullmatch(line):
+        name, live_url, description, prompt_url = match.groups()
+        return name, live_url, f"{description}.", prompt_url
+    if match := UNAVAILABLE_ENTRY.fullmatch(line):
+        name, live_url, description = match.groups()
+        return name, live_url, description, None
+    return None
 
 
 def main() -> int:
     records = json.loads(CATALOG.read_text(encoding="utf-8"))
     lines = README.read_text(encoding="utf-8").splitlines()
-    parsed = [match.groups() for line in lines if (match := ENTRY.fullmatch(line))]
+    parsed = [entry for line in lines if (entry := parse_entry(line))]
     errors: list[str] = []
 
     counts = Counter(url for _, url, _, _ in parsed)
@@ -30,7 +46,7 @@ def main() -> int:
     catalog_urls = {record["live_url"] for record in records}
     for record in records:
         actual = by_url.get(record["live_url"])
-        expected = (record["name"], record["description"][:-1], record["prompt_url"])
+        expected = (record["name"], record["description"], record["prompt_url"])
         if actual is None:
             errors.append(f"README missing: {record['live_url']}")
         elif actual != expected:

@@ -43,16 +43,56 @@
     "creator_name": { "type": ["string", "null"] },
     "creator_url": { "type": ["string", "null"], "format": "uri" },
     "source_url": { "type": "string", "format": "uri", "pattern": "^https://" },
-    "prompt_url": { "type": "string", "format": "uri", "pattern": "^https://" },
-    "prompt_provenance": {
-      "enum": ["official-source", "creator-submitted", "creator-confirmed", "source-link-only"]
+    "prompt_url": {
+      "oneOf": [
+        { "type": "string", "format": "uri", "pattern": "^https://" },
+        { "type": "null" }
+      ]
     },
-    "prompt_license": { "enum": ["CC0-1.0", "CC-BY-4.0", "creator-permission", "link-only"] },
+    "prompt_provenance": {
+      "enum": [
+        "official-source",
+        "creator-submitted",
+        "creator-confirmed",
+        "source-link-only",
+        "not-publicly-available"
+      ]
+    },
+    "prompt_license": {
+      "enum": ["CC0-1.0", "CC-BY-4.0", "creator-permission", "link-only", "not-applicable"]
+    },
     "verified_on": { "type": "string", "format": "date" },
     "review_status": { "enum": ["pending-human", "human-approved"] },
     "reviewed_by_human": { "type": "boolean" },
     "source_checked": { "const": true },
     "live_checked": { "const": true },
     "status": { "const": "active" }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "prompt_provenance": { "const": "not-publicly-available" } }
+      },
+      "then": {
+        "properties": {
+          "prompt_url": { "type": "null" },
+          "prompt_license": { "const": "not-applicable" }
+        }
+      },
+      "else": {
+        "properties": {
+          "prompt_url": { "type": "string", "format": "uri", "pattern": "^https://" },
+          "prompt_license": { "not": { "const": "not-applicable" } }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "prompt_provenance": { "const": "source-link-only" } }
+      },
+      "then": {
+        "properties": { "prompt_license": { "const": "link-only" } }
+      }
+    }
+  ]
 }

@@ -23,8 +23,20 @@ ALLOWED_CATEGORIES = {
     "Marketing Sites",
     "Education and Documentation",
 }
-PROVENANCE = {"official-source", "creator-submitted", "creator-confirmed", "source-link-only"}
-PROMPT_LICENSES = {"CC0-1.0", "CC-BY-4.0", "creator-permission", "link-only"}
+PROVENANCE = {
+    "official-source",
+    "creator-submitted",
+    "creator-confirmed",
+    "source-link-only",
+    "not-publicly-available",
+}
+PROMPT_LICENSES = {
+    "CC0-1.0",
+    "CC-BY-4.0",
+    "creator-permission",
+    "link-only",
+    "not-applicable",
+}
 REVIEW_STATES = {"pending-human", "human-approved"}
 REQUIRED = {
     "slug", "name", "live_url", "description", "category", "creator_name", "creator_url",
@@ -88,10 +100,21 @@ def validate(records: object) -> list[str]:
         if query_keys & TRACKING_KEYS:
             errors.append(f"{label}: live_url contains a tracking parameter")
 
-        for field in ("source_url", "prompt_url"):
-            value = record[field]
-            if not isinstance(value, str) or urlparse(value).scheme != "https" or not urlparse(value).hostname:
-                errors.append(f"{label}: {field} must be an absolute HTTPS URL")
+        source_url = record["source_url"]
+        if (
+            not isinstance(source_url, str)
+            or urlparse(source_url).scheme != "https"
+            or not urlparse(source_url).hostname
+        ):
+            errors.append(f"{label}: source_url must be an absolute HTTPS URL")
+
+        creator_url = record["creator_url"]
+        if creator_url is not None and (
+            not isinstance(creator_url, str)
+            or urlparse(creator_url).scheme != "https"
+            or not urlparse(creator_url).hostname
+        ):
+            errors.append(f"{label}: creator_url must be null or an absolute HTTPS URL")
 
         description = record["description"]
         if not isinstance(description, str) or not description or not description[0].isupper() or not description.endswith("."):
@@ -102,6 +125,21 @@ def validate(records: object) -> list[str]:
             errors.append(f"{label}: unsupported prompt_provenance")
         if record["prompt_license"] not in PROMPT_LICENSES:
             errors.append(f"{label}: unsupported prompt_license")
+        prompt_url = record["prompt_url"]
+        if record["prompt_provenance"] == "not-publicly-available":
+            if prompt_url is not None:
+                errors.append(f"{label}: not-publicly-available provenance requires a null prompt_url")
+            if record["prompt_license"] != "not-applicable":
+                errors.append(f"{label}: not-publicly-available provenance requires not-applicable rights")
+        else:
+            if (
+                not isinstance(prompt_url, str)
+                or urlparse(prompt_url).scheme != "https"
+                or not urlparse(prompt_url).hostname
+            ):
+                errors.append(f"{label}: prompt_url must be an absolute HTTPS URL when a prompt source is recorded")
+            if record["prompt_license"] == "not-applicable":
+                errors.append(f"{label}: not-applicable rights require not-publicly-available provenance")
         if record["prompt_provenance"] == "source-link-only" and record["prompt_license"] != "link-only":
             errors.append(f"{label}: source-link-only provenance requires link-only rights")
         if record["review_status"] not in REVIEW_STATES:

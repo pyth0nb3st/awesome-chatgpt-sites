@@ -1,6 +1,6 @@
 # Awesome Sites in ChatGPT [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Live websites and applications published with Sites in ChatGPT, paired with traceable prompt sources.
+Live websites and applications published with Sites in ChatGPT, paired with traceable prompt provenance or an explicit availability status.
 
 **[Explore the visual gallery →](https://awesome-chatgpt-sites.pyth0nb3st.chatgpt.site/)**
 
@@ -15,6 +15,8 @@ Live websites and applications published with Sites in ChatGPT, paired with trac
 - [Ecommerce and Storefronts](#ecommerce-and-storefronts)
 - [Education and Documentation](#education-and-documentation)
 - [Games](#games)
+- [Interactive Experiences](#interactive-experiences)
+- [Internal Apps and Dashboards](#internal-apps-and-dashboards)
 
 ## Featured
 
@@ -32,6 +34,7 @@ Preview thumbnails are shown for identification and link directly to each live S
 
 - [Biome Lab](https://interactive-studies-56.openai.chatgpt.site/biome-lab/) - Procedural terrarium sandbox with adjustable ecosystems, with [prompt and provenance](https://developers.openai.com/showcase/biome-lab).
 - [Material Lab](https://interactive-studies-56.openai.chatgpt.site/material-lab/) - Real-time 3D tool for testing materials, lighting, forms, and local presets, with [prompt and provenance](https://developers.openai.com/showcase/material-lab).
+- [Sumi](https://sumi-ascii.wmoto-ai.chatgpt.site/) - A local image-to-ASCII terminal with live resolution, color, charset, and multi-format copy controls. Prompt not publicly available.
 
 ## Data Visualization
 
@@ -46,6 +49,7 @@ Preview thumbnails are shown for identification and link directly to each live S
 
 ## Education and Documentation
 
+- [Strangely Useful](https://wonderledger.x0vvier.chatgpt.site/) - A multi-section discovery magazine covering technology, culture, security, hidden history, useful ideas, entertainment, and quizzes. Prompt not publicly available.
 - [The Infinite Build](https://the-infinite-build.openai.chatgpt.site/) - Prompt-first guide for developing and iterating long-running Codex game projects, with [prompt and provenance](https://the-infinite-build.openai.chatgpt.site/).
 
 ## Games
@@ -53,11 +57,24 @@ Preview thumbnails are shown for identification and link directly to each live S
 - [Backroom Center: Corrupted](https://backroom-center-corrupted.openai.chatgpt.site/) - First-person exploration game with a procedurally streamed data-center maze and VHS effects, with [prompt and provenance](https://developers.openai.com/showcase/backroom-center-corrupted).
 - [Codex Pet Arena](https://codex-pet-arena-20260709.openai.chatgpt.site/) - A fast, colorful platform arena where animated pets collect tokens, grow, and bonk their rivals, with [prompt and provenance](https://developers.openai.com/showcase/codex-pet-arena).
 - [Glass Towers](https://glass-towers.openai.chatgpt.site/) - Physics-based browser game for stacking translucent forms on a pedestal, with [prompt and provenance](https://developers.openai.com/showcase/glass-towers).
+- [MaboMabo](https://mabomabo.lucianlamp.chatgpt.site/) - A Japanese matching-puzzle game built around four-spirit chains, fever mode, burst attacks, and a leaderboard. Prompt not publicly available.
 - [MiniTown](https://minitown-cozy-sim.openai.chatgpt.site/) - A tiny living town where zones grow, residents commute, and warm lights come on at night, with [prompt and provenance](https://developers.openai.com/showcase/minitown).
 - [Paper Glider](https://paper-glider-56.openai.chatgpt.site/) - Three-dimensional arcade flying game through procedurally generated sunlit rooms, with [prompt and provenance](https://developers.openai.com/showcase/paper-glider).
 - [Phantasy Codex Adventure](https://phantasy-codex-adventure.openai.chatgpt.site/) - A persistent retro action RPG with procedural worlds, classes, bosses, and shared rankings, with [prompt and provenance](https://developers.openai.com/showcase/phantasy-codex-adventure).
 - [Phantasy Codex Online](https://phantasy-codex-online.openai.chatgpt.site/) - Persistent browser action role-playing game with classes, physical loot, towns, fixed-level biomes, and escalating world tiers, with [prompt and provenance](https://the-infinite-build.openai.chatgpt.site/).
+- [Tiny Blockworld](https://tiny-blockworld.diegocabezas01.chatgpt.site/game/) - A playable voxel sandbox for exploring, building, and breaking a tiny world with six block types. Prompt not publicly available.
 - [Tiny Rails Rollercoaster](https://sol-on-rails.openai.chatgpt.site/) - Three-dimensional coaster simulator with eight routes and multiple driving modes, with [prompt and provenance](https://developers.openai.com/showcase/tiny-rails-rollercoaster).
+- [方境 / Cubewild](https://fangjing-voxel-71026.xiaohaoyopt0.chatgpt.site/) - A browser-based 3D voxel sandbox with creative mode, procedural textures, and local autosave. Prompt not publicly available.
+
+## Interactive Experiences
+
+- [BRON](https://bron-savana.akdok.chatgpt.site/) - A bilingual, wordless savanna action webcomic with seven episodes, story notes, and accessible text summaries. Prompt not publicly available.
+
+## Internal Apps and Dashboards
+
+- [InboxPolicy Send Decisions](https://inboxpolicy-send-decisions.sorcerai.chatgpt.site/) - An interactive policy simulator for turning email-verification evidence into bounded send decisions for AI agents. Prompt not publicly available.
+- [ScopeSignal](https://scopesignal-freelance-tool.remy999.chatgpt.site/) - An interactive freelance pricing calculator that turns project inputs into a quote range and copyable scope summary. Prompt not publicly available.
+- [SurfTracker](https://surftracker-beta.willting.chatgpt.site/) - An Apple Watch-first surfing tracker beta for waves, paddles, speed, GPS routes, and heart rate. Prompt not publicly available.
 
 ## Contributing
 

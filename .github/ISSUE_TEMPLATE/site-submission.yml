@@ -10,23 +10,30 @@ body:
     id: live_url
     attributes:
       label: Direct live URL
-      description: Must be an HTTPS openai.chatgpt.site URL without tracking parameters.
-      placeholder: https://example.openai.chatgpt.site/
+      description: Must be a public HTTPS subdomain of chatgpt.site without tracking parameters.
+      placeholder: https://example.creator.chatgpt.site/
+    validations:
+      required: true
+  - type: dropdown
+    id: prompt_availability
+    attributes:
+      label: Prompt availability
+      description: Do not infer or reconstruct a prompt when no public source is available.
+      options:
+        - A public prompt source is available
+        - Prompt not publicly available
     validations:
       required: true
   - type: input
     id: source_url
     attributes:
       label: Prompt source URL
-      description: Link to the creator or official source identifying the prompt.
-    validations:
-      required: true
+      description: Required only when a public prompt source is available. Otherwise leave blank.
   - type: input
     id: creator
     attributes:
       label: Creator and attribution URL
-    validations:
-      required: true
+      description: Optional. Include only when a public source or direct confirmation supports the attribution; a hostname namespace alone is insufficient.
   - type: textarea
     id: description
     attributes:
@@ -45,6 +52,7 @@ body:
     attributes:
       label: Prompt rights
       options:
+        - Not applicable; prompt not publicly available
         - Link only; no reproduction permission is asserted
         - CC0-1.0
         - CC-BY-4.0
@@ -59,6 +67,8 @@ body:
         - label: I tested the site's primary interaction.
           required: true
         - label: This is not a reconstructed prompt or mass-generated submission.
+          required: true
+        - label: I did not infer creator ownership from the site's hostname namespace.
           required: true
         - label: I understand that a human maintainer makes the final curation decision.
           required: true

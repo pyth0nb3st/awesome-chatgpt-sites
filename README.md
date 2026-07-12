@@ -51,8 +51,11 @@ Preview thumbnails are shown for identification and link directly to each live S
 ## Games
 
 - [Backroom Center: Corrupted](https://backroom-center-corrupted.openai.chatgpt.site/) - First-person exploration game with a procedurally streamed data-center maze and VHS effects, with [prompt and provenance](https://developers.openai.com/showcase/backroom-center-corrupted).
+- [Codex Pet Arena](https://codex-pet-arena-20260709.openai.chatgpt.site/) - A fast, colorful platform arena where animated pets collect tokens, grow, and bonk their rivals, with [prompt and provenance](https://developers.openai.com/showcase/codex-pet-arena).
 - [Glass Towers](https://glass-towers.openai.chatgpt.site/) - Physics-based browser game for stacking translucent forms on a pedestal, with [prompt and provenance](https://developers.openai.com/showcase/glass-towers).
+- [MiniTown](https://minitown-cozy-sim.openai.chatgpt.site/) - A tiny living town where zones grow, residents commute, and warm lights come on at night, with [prompt and provenance](https://developers.openai.com/showcase/minitown).
 - [Paper Glider](https://paper-glider-56.openai.chatgpt.site/) - Three-dimensional arcade flying game through procedurally generated sunlit rooms, with [prompt and provenance](https://developers.openai.com/showcase/paper-glider).
+- [Phantasy Codex Adventure](https://phantasy-codex-adventure.openai.chatgpt.site/) - A persistent retro action RPG with procedural worlds, classes, bosses, and shared rankings, with [prompt and provenance](https://developers.openai.com/showcase/phantasy-codex-adventure).
 - [Phantasy Codex Online](https://phantasy-codex-online.openai.chatgpt.site/) - Persistent browser action role-playing game with classes, physical loot, towns, fixed-level biomes, and escalating world tiers, with [prompt and provenance](https://the-infinite-build.openai.chatgpt.site/).
 - [Tiny Rails Rollercoaster](https://sol-on-rails.openai.chatgpt.site/) - Three-dimensional coaster simulator with eight routes and multiple driving modes, with [prompt and provenance](https://developers.openai.com/showcase/tiny-rails-rollercoaster).
 

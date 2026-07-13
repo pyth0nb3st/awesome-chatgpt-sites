@@ -35,11 +35,17 @@ Preview thumbnails are shown for identification and link directly to each live S
 - [Biome Lab](https://interactive-studies-56.openai.chatgpt.site/biome-lab/) - Procedural terrarium sandbox with adjustable ecosystems, with [prompt and provenance](https://developers.openai.com/showcase/biome-lab).
 - [Material Lab](https://interactive-studies-56.openai.chatgpt.site/material-lab/) - Real-time 3D tool for testing materials, lighting, forms, and local presets, with [prompt and provenance](https://developers.openai.com/showcase/material-lab).
 - [Sumi](https://sumi-ascii.wmoto-ai.chatgpt.site/) - A local image-to-ASCII terminal with live resolution, color, charset, and multi-format copy controls. Prompt not publicly available.
+- [Dishcovery](https://dishcovery-living-plate.jmbarton.chatgpt.site/) - A visual food-intelligence concept for identifying dishes, explaining likely ingredients, and turning them into cooking plans. Prompt not publicly available.
+- [Image2 AI Studio](https://image2-ai-studio.lanxk.chatgpt.site/) - A Chinese AI image-generation studio with prompt input, style choices, aspect ratios, and gallery-style results. Prompt not publicly available.
+- [Precision Tempo Trainer](https://precision-tempo-trainer.px8tv8vgnn.chatgpt.site/) - A Traditional Chinese strength-training timer with voice cues, tempo beats, rest periods, and exercise presets. Prompt not publicly available.
 
 ## Data Visualization
 
 - [Terrain Mixer](https://interactive-studies-56.openai.chatgpt.site/terrain-mixer/) - Procedural landscape generator with synchronized three-dimensional and analytical views, with [prompt and provenance](https://developers.openai.com/showcase/terrain-mixer).
 - [Waveform Studio](https://interactive-studies-56.openai.chatgpt.site/waveform-studio/) - Local-first tool for turning audio into customizable visual waveforms, with [prompt and provenance](https://developers.openai.com/showcase/waveform-studio).
+- [Keyword Graph View](https://keyword-graph-view.twhsi.chatgpt.site/) - A keyword extraction and graphing tool that turns text into a weighted distributed network view. Prompt not publicly available.
+- [Taoyuan Airport 3D](https://taoyuan-airport-3d.walter1010101.chatgpt.site/) - An interactive 3D assessment tool for Taoyuan Airport runway surfaces, approach areas, and height-control decisions. Prompt not publicly available.
+- [Token Trajectory Atlas](https://token-trajectory-atlas.yui1214.chatgpt.site/) - A Japanese interactive simulation for exploring token transition paths and next-candidate probabilities. Prompt not publicly available.
 
 ## Ecommerce and Storefronts
 
@@ -51,6 +57,8 @@ Preview thumbnails are shown for identification and link directly to each live S
 
 - [Strangely Useful](https://wonderledger.x0vvier.chatgpt.site/) - A multi-section discovery magazine covering technology, culture, security, hidden history, useful ideas, entertainment, and quizzes. Prompt not publicly available.
 - [The Infinite Build](https://the-infinite-build.openai.chatgpt.site/) - Prompt-first guide for developing and iterating long-running Codex game projects, with [prompt and provenance](https://the-infinite-build.openai.chatgpt.site/).
+- [Atom Architecture Lab](https://atom-architecture-lab.jgalicea.chatgpt.site/) - An architecture journal about original systems, experiments, and design ideas presented as a focused publishing site. Prompt not publicly available.
+- [RouteLab](https://routelab-algorithm-studio.jonathangraydon22.chatgpt.site/) - A scroll-driven introduction to graphs, route costs, heuristics, and pathfinding algorithms. Prompt not publicly available.
 
 ## Games
 
@@ -65,10 +73,13 @@ Preview thumbnails are shown for identification and link directly to each live S
 - [Tiny Blockworld](https://tiny-blockworld.diegocabezas01.chatgpt.site/game/) - A playable voxel sandbox for exploring, building, and breaking a tiny world with six block types. Prompt not publicly available.
 - [Tiny Rails Rollercoaster](https://sol-on-rails.openai.chatgpt.site/) - Three-dimensional coaster simulator with eight routes and multiple driving modes, with [prompt and provenance](https://developers.openai.com/showcase/tiny-rails-rollercoaster).
 - [方境 / Cubewild](https://fangjing-voxel-71026.xiaohaoyopt0.chatgpt.site/) - A browser-based 3D voxel sandbox with creative mode, procedural textures, and local autosave. Prompt not publicly available.
+- [DraftLab LoL](https://draftlab-lol.pinhoes1000.chatgpt.site/) - A League of Legends draft coach for composing five-player teams, finding counters, and respecting squad champion pools. Prompt not publicly available.
+- [Flappy Syumai](https://flappy-syumai.syumai593530.chatgpt.site/) - A Japanese Flappy-style mini-game where a flying shumai dodges pipe gaps and records high scores. Prompt not publicly available.
 
 ## Interactive Experiences
 
 - [BRON](https://bron-savana.akdok.chatgpt.site/) - A bilingual, wordless savanna action webcomic with seven episodes, story notes, and accessible text summaries. Prompt not publicly available.
+- [Borrowed Beast Bureau](https://borrowed-beast-bureau.manaconda2433.chatgpt.site/) - A fictional case-file experience with an active registry, monster dossiers, and suspicious borrowed traits to investigate. Prompt not publicly available.
 
 ## Internal Apps and Dashboards
 

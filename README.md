@@ -37,6 +37,7 @@ Preview thumbnails are shown for identification and link directly to each live S
 - [Material Lab](https://interactive-studies-56.openai.chatgpt.site/material-lab/) - Real-time 3D tool for testing materials, lighting, forms, and local presets, with [prompt and provenance](https://developers.openai.com/showcase/material-lab).
 - [Quietscape Wallpapers](https://quietscape-wallpapers.kameari999.chatgpt.site/) - A bilingual gallery of free personal-use phone wallpapers organized around quiet landscapes, cozy rooms, rainy windows, and night scenes. Prompt not publicly available.
 - [Sumi](https://sumi-ascii.wmoto-ai.chatgpt.site/) - A local image-to-ASCII terminal with live resolution, color, charset, and multi-format copy controls. Prompt not publicly available.
+- [THE COLD BAR](https://icedcoffee.overboming.chatgpt.site/) - An interactive recipe calculator that models coffee strength, melt, temperature, and serving volume across several brewing presets. Prompt not publicly available.
 
 ## Data Visualization
 
@@ -54,17 +55,20 @@ Preview thumbnails are shown for identification and link directly to each live S
 - [AI Video Class Workshop](https://ai-video-class-workshop.cri-ai-tive.chatgpt.site/) - A Korean guided workshop that turns a fictional-travel idea into a visual storyboard, key images, generation prompts, and a ten-step production checklist. Prompt not publicly available.
 - [Bathroom Installation Heights Guide](https://guide-hauteurs-salle-de-bains.edifisgroup.chatgpt.site/) - A French-language installation reference with searchable bathroom dimensions, accessibility notes, configurable measurements, site mode, and a printable view. Prompt not publicly available.
 - [BYO-UI](https://byo-ui.beershake.chatgpt.site/) - An evidence-linked field guide to buying maintained SaaS foundations while designing task-specific interfaces around real work. Prompt not publicly available.
+- [Citation Reality Check](https://citationcheck.yskiyak.chatgpt.site/) - A privacy-minded citation checker that compares a pasted reference list against scholarly metadata without sending the list to a server. Prompt not publicly available.
 - [Challenge Atlas](https://challenge-atlas.mathlawguy.chatgpt.site/) - A researched field guide to facial and as-applied constitutional challenges, organized around doctrine, cases, remedies, and litigation framing. Prompt not publicly available.
 - [ForcePrep](https://forceprep-salesforce-interviews.adityakumawat-salesf.chatgpt.site/) - A searchable Salesforce interview-preparation workspace with role paths, scenarios, quizzes, code examples, and mock-practice prompts. Prompt not publicly available.
 - [PureTap Guide](https://puretap-frizzlife-guide.sedrati.chatgpt.site/) - An independent Frizzlife research site organized around installation spaces, model comparisons, replacement filters, and disclosed discount links. Prompt not publicly available.
 - [Strangely Useful](https://wonderledger.x0vvier.chatgpt.site/) - A multi-section discovery magazine covering technology, culture, security, hidden history, useful ideas, entertainment, and quizzes. Prompt not publicly available.
 - [The Infinite Build](https://the-infinite-build.openai.chatgpt.site/) - Prompt-first guide for developing and iterating long-running Codex game projects, with [prompt and provenance](https://the-infinite-build.openai.chatgpt.site/).
+- [TruthTube Files](https://truthtube-investigations.micheldavidbr.chatgpt.site/) - A magazine-style investigation site organized around case files, scam briefings, protective guidance, videos, and searchable archives. Prompt not publicly available.
 
 ## Games
 
 - [Backroom Center: Corrupted](https://backroom-center-corrupted.openai.chatgpt.site/) - First-person exploration game with a procedurally streamed data-center maze and VHS effects, with [prompt and provenance](https://developers.openai.com/showcase/backroom-center-corrupted).
 - [Buzz Game Lab](https://buzz-game-lab.sora-jp.chatgpt.site/) - A Japanese collection of free, no-sign-up mobile mini-games built around short challenges, rapid number growth, and repeatable score loops. Prompt not publicly available.
 - [Codex Pet Arena](https://codex-pet-arena-20260709.openai.chatgpt.site/) - A fast, colorful platform arena where animated pets collect tokens, grow, and bonk their rivals, with [prompt and provenance](https://developers.openai.com/showcase/codex-pet-arena).
+- [Dailies](https://dailies.jonabrams.chatgpt.site/) - A collection of browser logic games including Net, Thermometers, Slant, and Light Up, with optional sign-in for syncing progress. Prompt not publicly available.
 - [Glass Towers](https://glass-towers.openai.chatgpt.site/) - Physics-based browser game for stacking translucent forms on a pedestal, with [prompt and provenance](https://developers.openai.com/showcase/glass-towers).
 - [MaboMabo](https://mabomabo.lucianlamp.chatgpt.site/) - A Japanese matching-puzzle game built around four-spirit chains, fever mode, burst attacks, and a leaderboard. Prompt not publicly available.
 - [MiniTown](https://minitown-cozy-sim.openai.chatgpt.site/) - A tiny living town where zones grow, residents commute, and warm lights come on at night, with [prompt and provenance](https://developers.openai.com/showcase/minitown).
@@ -78,12 +82,14 @@ Preview thumbnails are shown for identification and link directly to each live S
 ## Interactive Experiences
 
 - [BRON](https://bron-savana.akdok.chatgpt.site/) - A bilingual, wordless savanna action webcomic with seven episodes, story notes, and accessible text summaries. Prompt not publicly available.
+- [SilentButSpiritual](https://silentbutspiritual.silentbutspiritual.chatgpt.site/) - An editorial community site that combines independent music, reflective writing, tarot requests, and a sign-in-gated discussion area. Prompt not publicly available.
 - [Sunshine Coast Weekend Gig Guide](https://sunshine-coast-weekend-gig-guide.lukehawleyau.chatgpt.site/) - A filterable weekend planner for markets, live music, arts, family events, and local experiences across the Sunshine Coast, Noosa, and Gympie. Prompt not publicly available.
 
 ## Marketing Sites
 
 - [GTA Bee & Wasp Removal](https://gta-bee-wasp-removal.whole-song-6290.chatgpt.site/) - A local pest-control service site with species-specific treatment pages, service-area guidance, direct calling, and same-day availability information. Prompt not publicly available.
 - [John Barton Signal Room](https://john-barton-signal-room.jmbarton.chatgpt.site/) - A narrative portfolio that routes visitors by intent and supports its operator and product positioning with case studies, measurable outcomes, and current work. Prompt not publicly available.
+- [Richard's Terminal](https://richard-terminal.richardqz.chatgpt.site/) - An interactive product-manager portfolio where terminal commands reveal current focus, project index, background, and contact paths. Prompt not publicly available.
 
 ## Internal Apps and Dashboards
 

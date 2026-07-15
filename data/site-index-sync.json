@@ -1,0 +1,19 @@
+{
+  "query": "site:chatgpt.site",
+  "window": "after:2026-07-14",
+  "windowStart": "2026-07-14",
+  "windowEnd": "2026-07-15",
+  "lastSyncedAt": "2026-07-15T01:51:30Z",
+  "timezone": "Asia/Shanghai",
+  "resultPagesChecked": 4,
+  "addedSlugs": [
+    "ai-crawler-checker",
+    "anthropic-openai-fight",
+    "pechipechi-awake",
+    "polymarket-apr",
+    "sekai-shift-support",
+    "signal-ai-digest-jp"
+  ],
+  "nextWindow": "after:2026-07-15",
+  "notes": "Google indexed-result sweep. Only manually verified, non-duplicate community sites were added; prompt absence is recorded rather than inferred."
+}

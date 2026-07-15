@@ -33,6 +33,7 @@ Preview thumbnails are shown for identification and link directly to each live S
 
 ## Creative Tools
 
+- [AI Crawler Checker](https://actionsignal-readiness.unitedideas.chatgpt.site/ai-crawler-checker) - A public utility that explains how selected AI crawler tokens resolve against a website's robots.txt rules. Prompt not publicly available.
 - [Biome Lab](https://interactive-studies-56.openai.chatgpt.site/biome-lab/) - Procedural terrarium sandbox with adjustable ecosystems, with [prompt and provenance](https://developers.openai.com/showcase/biome-lab).
 - [Material Lab](https://interactive-studies-56.openai.chatgpt.site/material-lab/) - Real-time 3D tool for testing materials, lighting, forms, and local presets, with [prompt and provenance](https://developers.openai.com/showcase/material-lab).
 - [Quietscape Wallpapers](https://quietscape-wallpapers.kameari999.chatgpt.site/) - A bilingual gallery of free personal-use phone wallpapers organized around quiet landscapes, cozy rooms, rainy windows, and night scenes. Prompt not publicly available.
@@ -53,12 +54,14 @@ Preview thumbnails are shown for identification and link directly to each live S
 ## Education and Documentation
 
 - [AI Video Class Workshop](https://ai-video-class-workshop.cri-ai-tive.chatgpt.site/) - A Korean guided workshop that turns a fictional-travel idea into a visual storyboard, key images, generation prompts, and a ten-step production checklist. Prompt not publicly available.
+- [Anthropic X OpenAI Timeline](https://anthropic-openai-fight.cmedeiro.chatgpt.site/) - An arcade-styled timeline that presents recent Anthropic and OpenAI announcements as dated side-by-side events with a live status panel. Prompt not publicly available.
 - [Bathroom Installation Heights Guide](https://guide-hauteurs-salle-de-bains.edifisgroup.chatgpt.site/) - A French-language installation reference with searchable bathroom dimensions, accessibility notes, configurable measurements, site mode, and a printable view. Prompt not publicly available.
 - [BYO-UI](https://byo-ui.beershake.chatgpt.site/) - An evidence-linked field guide to buying maintained SaaS foundations while designing task-specific interfaces around real work. Prompt not publicly available.
 - [Citation Reality Check](https://citationcheck.yskiyak.chatgpt.site/) - A privacy-minded citation checker that compares a pasted reference list against scholarly metadata without sending the list to a server. Prompt not publicly available.
 - [Challenge Atlas](https://challenge-atlas.mathlawguy.chatgpt.site/) - A researched field guide to facial and as-applied constitutional challenges, organized around doctrine, cases, remedies, and litigation framing. Prompt not publicly available.
 - [ForcePrep](https://forceprep-salesforce-interviews.adityakumawat-salesf.chatgpt.site/) - A searchable Salesforce interview-preparation workspace with role paths, scenarios, quizzes, code examples, and mock-practice prompts. Prompt not publicly available.
 - [PureTap Guide](https://puretap-frizzlife-guide.sedrati.chatgpt.site/) - An independent Frizzlife research site organized around installation spaces, model comparisons, replacement filters, and disclosed discount links. Prompt not publicly available.
+- [SIGNAL / AI](https://signal-ai-digest-jp.ddatank1627.chatgpt.site/) - A Japanese editorial digest that turns primary-source AI updates into reviewed signals about models, agents, creative work, and safety. Prompt not publicly available.
 - [Strangely Useful](https://wonderledger.x0vvier.chatgpt.site/) - A multi-section discovery magazine covering technology, culture, security, hidden history, useful ideas, entertainment, and quizzes. Prompt not publicly available.
 - [The Infinite Build](https://the-infinite-build.openai.chatgpt.site/) - Prompt-first guide for developing and iterating long-running Codex game projects, with [prompt and provenance](https://the-infinite-build.openai.chatgpt.site/).
 - [TruthTube Files](https://truthtube-investigations.micheldavidbr.chatgpt.site/) - A magazine-style investigation site organized around case files, scam briefings, protective guidance, videos, and searchable archives. Prompt not publicly available.
@@ -73,6 +76,7 @@ Preview thumbnails are shown for identification and link directly to each live S
 - [MaboMabo](https://mabomabo.lucianlamp.chatgpt.site/) - A Japanese matching-puzzle game built around four-spirit chains, fever mode, burst attacks, and a leaderboard. Prompt not publicly available.
 - [MiniTown](https://minitown-cozy-sim.openai.chatgpt.site/) - A tiny living town where zones grow, residents commute, and warm lights come on at night, with [prompt and provenance](https://developers.openai.com/showcase/minitown).
 - [Paper Glider](https://paper-glider-56.openai.chatgpt.site/) - Three-dimensional arcade flying game through procedurally generated sunlit rooms, with [prompt and provenance](https://developers.openai.com/showcase/paper-glider).
+- [Pechipechi Awake](https://pechipechi-awake.neneneai.chatgpt.site/) - A Japanese pixel-art survival game with a tap-to-start flow, 360-degree movement, three characters, and an endless battle loop. Prompt not publicly available.
 - [Phantasy Codex Adventure](https://phantasy-codex-adventure.openai.chatgpt.site/) - A persistent retro action RPG with procedural worlds, classes, bosses, and shared rankings, with [prompt and provenance](https://developers.openai.com/showcase/phantasy-codex-adventure).
 - [Phantasy Codex Online](https://phantasy-codex-online.openai.chatgpt.site/) - Persistent browser action role-playing game with classes, physical loot, towns, fixed-level biomes, and escalating world tiers, with [prompt and provenance](https://the-infinite-build.openai.chatgpt.site/).
 - [Tiny Blockworld](https://tiny-blockworld.diegocabezas01.chatgpt.site/game/) - A playable voxel sandbox for exploring, building, and breaking a tiny world with six block types. Prompt not publicly available.
@@ -82,6 +86,8 @@ Preview thumbnails are shown for identification and link directly to each live S
 ## Interactive Experiences
 
 - [BRON](https://bron-savana.akdok.chatgpt.site/) - A bilingual, wordless savanna action webcomic with seven episodes, story notes, and accessible text summaries. Prompt not publicly available.
+- [Polymarket APR](https://polymarket-apr.neverlack.chatgpt.site/) - A focused comparison tool that estimates annualized returns for similar Polymarket positions and places them alongside a stablecoin yield reference. Prompt not publicly available.
+- [Sekai Shift Support](https://sekai-shift-support.bellrin1220.chatgpt.site/) - A Japanese event-support tool that collects availability and team compositions, then generates shareable shifts without requiring contributors to sign in. Prompt not publicly available.
 - [SilentButSpiritual](https://silentbutspiritual.silentbutspiritual.chatgpt.site/) - An editorial community site that combines independent music, reflective writing, tarot requests, and a sign-in-gated discussion area. Prompt not publicly available.
 - [Sunshine Coast Weekend Gig Guide](https://sunshine-coast-weekend-gig-guide.lukehawleyau.chatgpt.site/) - A filterable weekend planner for markets, live music, arts, family events, and local experiences across the Sunshine Coast, Noosa, and Gympie. Prompt not publicly available.
 

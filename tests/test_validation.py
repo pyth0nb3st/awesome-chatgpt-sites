@@ -20,7 +20,7 @@ class CatalogValidationTests(unittest.TestCase):
         self.assertEqual(validate(load_catalog(ROOT / "data" / "sites.json")), [])
 
     def test_accepts_prompt_not_publicly_available_state(self):
-        record = dict(load_catalog(ROOT / "data" / "sites.json")[0])
+        record = dict(next(record for record in load_catalog(ROOT / "data" / "sites.json") if record["prompt_url"]))
         record.update(
             {
                 "slug": "no-public-prompt",
@@ -33,7 +33,7 @@ class CatalogValidationTests(unittest.TestCase):
         self.assertEqual(validate([record]), [])
 
     def test_rejects_inconsistent_prompt_availability_state(self):
-        record = dict(load_catalog(ROOT / "data" / "sites.json")[0])
+        record = dict(next(record for record in load_catalog(ROOT / "data" / "sites.json") if record["prompt_url"]))
         record.update(
             {
                 "prompt_provenance": "not-publicly-available",
@@ -45,7 +45,7 @@ class CatalogValidationTests(unittest.TestCase):
         self.assertTrue(any("requires not-applicable rights" in error for error in errors))
 
     def test_rejects_not_applicable_rights_for_public_prompt(self):
-        record = dict(load_catalog(ROOT / "data" / "sites.json")[0])
+        record = dict(next(record for record in load_catalog(ROOT / "data" / "sites.json") if record["prompt_url"]))
         record.update({"prompt_url": None, "prompt_license": "not-applicable"})
         errors = validate([record])
         self.assertTrue(any("prompt_url must be an absolute HTTPS URL" in error for error in errors))

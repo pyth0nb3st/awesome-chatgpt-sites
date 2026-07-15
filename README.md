@@ -110,4 +110,4 @@ Read the [contribution guidelines](contributing.md) before proposing a site. One
 
 ## Footnotes
 
-This is an independent community project and is not affiliated with or endorsed by OpenAI. OpenAI, ChatGPT, and related marks belong to their respective owner. Third-party sites, prompts, and assets retain their original rights unless explicitly stated otherwise. See [third-party notices](THIRD_PARTY_NOTICES.md).
+This is an independent community project and is not affiliated with or endorsed by OpenAI. The entries are links to publicly accessible websites collected for discovery and study; listing a site does not establish authorship, ownership, endorsement, safety, accuracy, availability, or suitability. Use your own judgment and verify information before visiting, downloading, sharing data, contacting a creator, or making a purchase. OpenAI, ChatGPT, and related marks belong to their respective owner. Third-party sites, prompts, and assets retain their original rights unless explicitly stated otherwise. See [third-party notices](THIRD_PARTY_NOTICES.md).
